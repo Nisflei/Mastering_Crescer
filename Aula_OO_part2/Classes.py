@@ -19,7 +19,7 @@ class Fone:
     def ver(self):
         print(f'Contato: {self.fone}')
 
-class ContaBancaria:
+Noclass ContaBancaria:
     def __init__(self,numero, digito, agencia, saldo, cliente ):
         self.numero =  numero
         self.digito = digito
