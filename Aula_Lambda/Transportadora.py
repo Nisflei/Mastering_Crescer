@@ -1,7 +1,7 @@
 # Lista de produtos e valores de FRETE
 
 produtos = [
-    {'Frete': 0.90, 'Produto': 'MILHO',   'Origem': 'MT', 'Destino': 'SP', 'Peso_kg': 5500.0},
+    {'Produto': 'MILHO',  'Frete': 0.90, 'Peso_kg': 5500.0, 'Origem': 'MT', 'Destino': 'SP'},
     {'Produto': 'SOJA',   'Frete': 0.55, 'Peso_kg': 4300.0, 'Origem': 'MS', 'Destino': 'SP'},
     {'Produto': 'ALGODÃO','Frete': 0.13, 'Peso_kg': 3000.0, 'Origem': 'GO', 'Destino': 'MT'},
     {'Produto': 'MILHO',  'Frete': 0.49, 'Peso_kg': 8000.0, 'Origem': 'MS', 'Destino': 'MT'},

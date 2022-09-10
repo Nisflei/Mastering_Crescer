@@ -56,11 +56,11 @@ lista_valores = [100,
                  400]
 novosValores = list(map(lambda elemento: elemento * 2 , lista_valores))
 print(novosValores)
-animais = ['cao',
-           'gato',
-           'coelho',
-           'passarinho']
-animais2 = list(map(lambda elemento: str.upper(elemento) , animais))
+animais = [['cao',1],
+           ['gato',1],
+           ['coelho',1],
+           ['passarinho',1]]
+animais2 = list(map(lambda elemento: str.upper(elemento[0]), animais))
 print(animais2)
 
 # FASE 4 - Trabalhando com FILTER (filtrar/separar os elementos)
